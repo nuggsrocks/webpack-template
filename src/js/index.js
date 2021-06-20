@@ -1,7 +1,9 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-import '../scss/index.scss';
+import '../scss/index.scss'
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 
-let div = document.querySelector('div#root');
+const sayHello = () => {
+  document.body.append('Hello world')
+}
 
-div.innerHTML = '<h1>Hello world</h1>';
+export default { sayHello }
