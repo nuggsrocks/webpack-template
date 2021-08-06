@@ -1,8 +1,8 @@
 # build folder
-public/**
+public/
 
 # dependencies
-node_modules/**
+node_modules/
 
 # intellij files
-.idea/**
+.idea/
